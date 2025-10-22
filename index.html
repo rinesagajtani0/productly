@@ -9,72 +9,71 @@
     <link rel="stylesheet" href="./CSS/style.css">
     <title>Productly</title>
 <body>
-  <header class="main-header">
-    <div class="container flex-container">
-      <a class="logo" href="#">
+  <header class="header">
+    <div class="container header__container">
+      <a class="header__logo" href="#">
         <img src="./images/logo.png" alt="Productly Logo">
       </a>
-      <nav class="nav-bar">
-        <ul>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">Customers</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Resources</a></li>
+      <nav class="header__nav">
+        <ul class="header__nav--list">
+          <li class="header__nav--item"><a href="#" class="header__nav--link">Product</a></li>
+          <li class="header__nav--item"><a href="#" class="header__nav--link">Customers</a></li>
+          <li class="header__nav--item"><a href="#" class="header__nav--link">Pricing</a></li>
+          <li class="header__nav--item"><a href="#" class="header__nav--link">Resources</a></li>
         </ul>
-        <div class="nav-buttons">
-          <a href="#" class="btn btn-alt">Sign In</a>
-          <a href="#" class="btn">Sign Up</a>
+        <div class="header__actions">
+          <a href="#" class="button button--sign-in">Sign In</a>
+          <a href="#" class="button">Sign Up</a>
         </div>
       </nav>
     </div>
   </header>
-  <main class="main-content container">
-    <div class="text-content">
+  <main class="hero container">
+    <div class="hero__text">
       <h1>The Design Thinking superpowers</h1>
       <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
-      <div class="buttons">
-        <a href="#" class="btn get-started">Get started</a>
-        <a href="#" class="watch-video"><img src="./images/triangle.png" alt="">Watch the Video</a>
+      <div class="hero__actions">
+        <a href="#" class="button hero__button--primary">Get started</a>
+        <a href="#" class="hero__watch-video"><img src="./images/triangle.png" alt="">Watch the Video</a>
       </div>
     </div>
-    <div class="image-content">
+    <div class="hero__image">
       <img src="./images/image.png" alt="Design Thinking Illustration">
     </div>
   </main>
-<section class="features-section">
+<section class="features">
   <div class="container">
     <h2>We design tools to unveil <br> your superpowers</h2>
-    <div class="features">
-      <div class="feature-card">
+    <div class="features__list">
+      <div class="features__item">
         <img src="./images/first-icon.png" alt="">
         <h4>First click tests</h4>
         <p>While most people enjoy casino gambling,</p>
       </div>
-      <div class="feature-card">
+      <div class="features__item">
         <img src="./images/second-icon.png" alt="">
         <h4>Design surveys</h4>
         <p>Sports betting, lottery and bingo playing for the fun</p>
       </div>
-      <div class="feature-card">
+      <div class="features__item">
         <img src="./images/third-icon.png" alt="">
         <h4>Preference tests</h4>
         <p>The Myspace page defines the individual.</p>
       </div>
-      <div class="feature-card">
+      <div class="features__item">
         <img src="./images/fourth-icon.png" alt="">
         <h4>Five second tests</h4>
         <p>Personal choices and the overall personality of the person.</p>
       </div>
     </div>
-    <a href="#" class="btn sign-up-now">Sign up now</a>
+    <a href="#" class="button features__cta">Sign up now</a>
   </div>
 </section>
-
-<section class="validation-section">
-  <div class="container validation-container">
-    <div class="validation-block">
-      <div class="validation-text">
-        <p class="subheading">Effortless Validation for</p>
+<section class="validation">
+  <div class="container validation__container">
+    <div class="validation__block">
+      <div class="validation__text">
+        <p class="validation__subtitle">Effortless Validation for</p>
         <h2>Design Professionals</h2>
         <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person.</p>
 
@@ -87,30 +86,29 @@
         <h5>Custom Design designers</h5>
         <p>If you are looking for a new way to promote your business that won’t cost you more money,</p>
       </div>
-      <div class="validation-image">
+      <div class="validation__image">
         <img src="./images/product1.png" alt="Design Professionals">
       </div>
     </div>
-
-    <div class="validation-block reverse">
-      <div class="validation-image">
+    <div class="validation__block validation__block--reverse">
+      <div class="validation__image">
         <img src="./images/product2.png" alt="Product Managers">
       </div>
-      <div class="validation-text">
-        <p class="subheading">Easier decision making for</p>
+      <div class="validation__text">
+        <p class="validation__subtitle">Easier decision making for</p>
         <h2>Product Managers</h2>
         <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person.</p>
 
-        <ul class="check-list">
-            <li>
+        <ul class="validation__checklist">
+            <li class="validation__checklist--item">
               <img src="./images/check-icon.png" alt="Check Icon" />
               <span>Never worry about overpaying for your energy again.</span>
             </li>
-            <li>
+            <li class="validation__checklist--item">
               <img src="./images/check-icon.png" alt="Check Icon" />
               <span>We will only switch you to energy companies that we trust and will treat you right.</span>
             </li>
-            <li>
+            <li class="validation__checklist--item">
               <img src="./images/check-icon.png" alt="Check Icon" />
               <span>We track the markets daily and know where the savings are.</span>
             </li>
@@ -118,55 +116,51 @@
       </div>
     </div>
       <div class="container validation-container">
-        <div class="validation-block">
-    <div class="validation-text">
-      <p class="subtitle">Optimisation for</p>
-      <h1>Marketers</h1>
-      <p class="description">
-      Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior.       </p>
+        <div class="validation__block">
+          <div class="validation__text">
+             <p class="validation__subtitle">Optimisation for</p>
+             <h1>Marketers</h1>
+              <p class="validation__description">
+              Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior.       </p>
 
-      <h5>Accessory makers</h5>
-      <p>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+              <h5>Accessory makers</h5>
+              <p>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
 
-      <h5>Alterationists</h5>
-      <p>If you are looking for a new way to promote your business that won’t cost you more money,</p>
+              <h5>Alterationists</h5>
+              <p>If you are looking for a new way to promote your business that won’t cost you more money,</p>
 
-      <h5>Custom Design designers</h5>
-      <p>If you are looking for a new way to promote your business that won’t cost you more money,</p>
-    </div>
-
-      <div class="validation-image">
-      <img src="./images/product3.png" alt="Design Professional Illustration">
+              <h5>Custom Design designers</h5>
+              <p>If you are looking for a new way to promote your business that won’t cost you more money,</p>
+          </div>
+              <div class="validation__image">
+                <img src="./images/product3.png" alt="Design Professional Illustration">
+              </div>
+        </div>
       </div>
-    </div>
-  </div>
 </section>
-
-<div class="hr container"></div>
-  <footer class="main-footer container">
-    <a class="logo" href="#">
+<div class="footer__divider container"></div>
+  <footer class="footer container">
+    <a class="footer__logo" href="#">
       <img src="./images/logo.png" alt="Productly Logo">
     </a>
-    <div class="footer-content">
-      <ul class="footer-links">
+    <div class="footer__content">
+      <ul class="footer__links">
         <li><a href="#">About Us</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Contact</a></li>
         <li><a href="#">FAQ</a></li>
       </ul>
-      <ul class="footer-links">
+      <ul class="footer__links">
         <li><a href="#">Disclaimer</a></li>
         <li><a href="#">Financing</a></li>
         <li><a href="#">Privacy Policy</a></li>
         <li><a href="#">Terms of Service</a></li>
       </ul>
-      <div class="footer-signup">
-        <input type="email" name="email" />
-        <button type="btn submit">Sign up Now</button>
+      <div class="footer__signup">
+        <input type="email" name="email" class="footer__input" />
+        <button type="button" class="footer__button">Sign up Now</button>
       </div>
     </div>
   </footer>
-
 </body>
-
 </html>
